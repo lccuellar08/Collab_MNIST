@@ -66,3 +66,6 @@ model.fit(x_train_1, y_train, batch_size=batch_size, epochs=epochs, validation_s
 score = model.evaluate(x_test_1, y_test, verbose=0)
 print("Test loss:", score[0])
 print("Test accuracy:", score[1])
+
+# Test loss: 0.17525780200958252
+# Test accuracy: 0.942300021648407
