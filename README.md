@@ -3,7 +3,7 @@
 Collab MNIST is a simple test project in which I explore the question "Can independent models learn to collaborate". In this project I look into the ability for 2 models to develop the capability to exchange, receive, and decipher information to aid in their independent predictions.
 
 The concept and implementation is simple. I'm using the MNIST database, splitting the images in half, feeding each half to the two separate models. The simplified model graph is as follows:
-![Alt text](Collab_Model_Graph_Simple.png?raw=true "Simplified Model Graph")
+![Alt text](Collab_Model_Graph_Simple.jpg?raw=true "Simplified Model Graph")
 
 ## Results
 
