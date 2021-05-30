@@ -5,21 +5,21 @@ Collab MNIST is a simple test project in which I explore the question "Can indep
 The concept and implementation is simple. I'm using the MNIST database, splitting the images in half, feeding each half to the two separate models. The simplified model graph is as follows:
 ![Alt text](Collab_Model_Graph_Simple.png?raw=true "Simplified Model Graph")
 
-### Results
+## Results
 
-## Baseline
+### Baseline
 Baseline model results using 2 Conv2D and 1 Dense layer:
 
 Test loss: 0.0245
 Test accuracy: 0.9912
 
-## Half-Model
+### Half-Model
 Second baseline, for 1 of the models using the method mentioned above, but with no collaboration or information exchange. Basically it's just the baseline model but only taking half of the image as input.
 
 Test loss: 0.1756
 Test accuracy: 0.9423
 
-## Collaborative model
+### Collaborative model
 Collaborative models. Each model contains 2 Conv2D layers and 2 Dense layers. 1 of the Dense layers feeds into the other model
 
 Test Loss: 0.1022
@@ -29,7 +29,7 @@ Right Test Loss: 0.0545
 Left Test Accuracy: 0.9849
 Right Test Accuracy: 0.9831
 
-### Installing
+## Installing
 
 Download the repository
 
